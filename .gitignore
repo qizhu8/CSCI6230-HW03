@@ -2,6 +2,16 @@
 __pycache__/
 *.py[cod]
 *$py.class
+.DS_Store
+
+# latex
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.tex
 
 # C extensions
 *.so
