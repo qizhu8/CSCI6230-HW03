@@ -19,6 +19,8 @@ Decrypt Ciphertext and get
 10011100000100001100
 ```
 
+In the code, I don't use a and b and instead, I use a = p^-1 mod q and b = q^-1 mod p.
+
 ### Code Description
 * *BG_demo.py* is the main program. Run it using *Python 3*.
 * *Blum_Goldwessar_Class.py* defines class BG which is used for both encryption and decryption.
