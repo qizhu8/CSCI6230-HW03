@@ -36,9 +36,13 @@ class BG(object):
         else:
             print("q should be a positive integer and q % 4 = 3")
 
-    def set_n(self, n):
+    def set_n(self, n, check=True):
         n = int(n)
-        if n > 21:
+        is_blum = True
+        if check: # check whether n is a blum number
+            is_blum = npkg.is_blum(n)
+
+        if is_blum and n > 21:
             self.n = n
             self.update_h()
         else:
