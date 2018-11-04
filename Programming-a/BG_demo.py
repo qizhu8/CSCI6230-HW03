@@ -6,8 +6,8 @@ from Blum_Goldwessar_Class import BG
 
 p = 499
 q = 547
-a = -57
-b = 52
+a = -57 # unused
+b = 52 # unused
 X0 = 159201
 m="10011100000100001100"
 
